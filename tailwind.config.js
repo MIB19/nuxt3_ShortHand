@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./components/***/**/*.{js,vue,ts}",
+    "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
@@ -109,7 +109,12 @@ module.exports = {
       64: "16rem",
       72: "18rem",
       80: "20rem",
+      84: "21rem",
+      88: "22rem",
+      92: "23rem",
       96: "24rem",
+      100: "25rem",
+      104: "26rem",
       "slider-2xl": "848px",
       "slider-xl": "678px",
       "slider-lg": "509px",
@@ -230,6 +235,7 @@ module.exports = {
       lg: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
       xl: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
       "2xl": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+      calm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;",
       inner: "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
       none: "none",
     },

@@ -24,7 +24,12 @@
   "dependencies": {
     "@egjs/flicking-plugins": "^4.4.0",
     "@egjs/vue3-flicking": "^4.9.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
     "axios": "^0.27.2",
+    "firebase": "^9.9.3",
     "vue-axios": "^3.4.1"
   }
 }

@@ -3,6 +3,3 @@
     <PartialsHomeAppSlider />
   </div>
 </template>
-<script setup>
-const a = "hai";
-</script>

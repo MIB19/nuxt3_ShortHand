@@ -2,7 +2,8 @@
   <div
     class="w-full flex justify-center items-center bg-yellow-50 h-slider-sm md:h-slider-md xl:h-slider-xl"
   >
-    <client-only>
+    cobak
+    <!-- <client-only>
       <Flicking :options="options" :plugins="plugins">
         <div
           v-for="(item, i) in appSliders"
@@ -18,16 +19,16 @@
           <div class="flicking-pagination"></div>
         </template>
       </Flicking>
-    </client-only>
+    </client-only> -->
   </div>
 </template>
 <script>
-import Flicking from "@egjs/vue3-flicking";
+// import Flicking from "@egjs/vue3-flicking";
 import { AutoPlay, Pagination } from "@egjs/flicking-plugins";
 export default {
   name: "HomePage",
   components: {
-    Flicking,
+    // Flicking,
   },
   data() {
     return {
